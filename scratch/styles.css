@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: bisque;
+    scroll-padding-top: 120px;
+    margin-bottom: 120px;
+}
+
+li, a, button {
+    font-family: Arima, cursive, Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none; 
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background-color: lightsalmon;
+    align-items: center;
+    padding: 2px 2%;
+    z-index: 1;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: bisque;
+}
+
+h2 {
+    display:flex;
+}
+
+.bgimg {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.overimg {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-60%, -30%);
+    font-family: Arima, cursive, Roboto, sans-serif;
+    font-size: 30vm;
+    text-decoration: none;
+    list-style: none;
+}
+
+.overimg::first-line {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.title {
+    justify-content: center;
+    font-family: Arima, cursive, Roboto, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+div {
+    padding: 0% 10%;
+}
+
+.box {
+    display: flex;
+    width:50%;
+    max-width: 100%;
+    object-fit: contain;
+    padding: 20px;
+    font-family: Arima, cursive, Roboto, sans-serif;
+    font-size: 1.5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.sample-container {
+    justify-content: center;
+    margin-top: 2%;
+    padding: 0 50px;
+}
+
+.samples {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.album-cover {
+    width: 300px;
+    justify-content: center;
+}
+
+.audio-under {
+    display:block;
+    justify-content: center;
+    width: 300px;
+}
+
+.rates {
+    display:flex;
+}
+
+.box15 {
+    display: flex;
+    width:15%;
+    max-width: 100%;
+    object-fit: contain;
+    padding: 20px;
+    font-family: Arima, cursive, Roboto, sans-serif;
+    font-size: 2.5vw;
+    color: lightsalmon;
+    justify-content: center;
+    align-items: center;
+}
+
+.box85 {
+    display: flex;
+    width:85%;
+    max-width: 100%;
+    object-fit: contain;
+    padding: 20px;
+    font-family: Arima, cursive, Roboto, sans-serif;
+    font-size: 1vw;
+    justify-content: left;
+    align-items: center;
+}
+
+.contact {
+    padding-top:50px;
+    justify-content: center;
+}
+
+footer {
+    background-color:lightsalmon;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+}
